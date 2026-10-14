@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>G5 Distribuidora | Peças para Celular em São Luís • Atacado e Varejo</title>
+  
+  <meta name="description" content="G5 Distribuidora: A maior rede de distribuição de peças para celular em São Luís - MA. Nossas lojas físicas com pronta entrega no balcão e atacado para técnicos.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="G5 Distribuidora • Peças para Celular em São Luís">
+  <meta property="og:description" content="Telas, baterias, conectores e acessórios no atacado e varejo. Nossas lojas em São Luís com retirada imediata.">
+  <meta property="og:image" content="./assets/g5_3d_logo.png">
+  <link rel="icon" type="image/png" href="./assets/g5_3d_logo.png">
+
+  <!-- Tipografia de Elite: Montserrat (Títulos Skytech) + Inter (Corpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            title: ['Montserrat', 'system-ui', 'sans-serif'],
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            g5: {
+              orange: '#FD5F00',
+              orangeHover: '#E05300',
+              orangeLight: '#FFF7ED',
+              dark: '#09090B',
+              body: '#27272A',
+              muted: '#71717A',
+              border: '#E4E4E7',
+              borderLight: '#F4F4F5',
+              surface: '#FFFFFF',
+              surfaceAlt: '#F8FAFC',
+              bg: '#FFFFFF',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html, body {
+      background-color: #FFFFFF !important;
+      color: #09090B;
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+      max-width: 100vw;
+    }
+
+    .font-title {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    #whatsapp-floating-btn {
+      position: fixed;
+      bottom: 85px;
+      right: 16px;
+      z-index: 9999;
+    }
+    @media (min-width: 640px) {
+      #whatsapp-floating-btn {
+        bottom: 24px;
+        right: 24px;
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-white selection:bg-g5-orange selection:text-white pb-24 md:pb-0">
+
+  <!-- ================= HEADER CLARO & PROFISSIONAL ================= -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-zinc-200 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 sm:h-24 flex items-center justify-between">
+      
+      <!-- Logo G5 Oficial (Aumentada) -->
+      <a href="#" class="flex items-center gap-3 sm:gap-4 group">
+        <img src="./assets/g5_3d_logo.png" alt="Logo G5 Distribuidora" class="h-14 sm:h-16 md:h-20 w-auto object-contain drop-shadow-sm group-hover:scale-105 transition-transform duration-200">
+        <div>
+          <span class="font-title font-black text-xl sm:text-2xl md:text-3xl tracking-wide text-zinc-950 block leading-none">
+            G5 <span class="text-g5-orange">DISTRIBUIDORA</span>
+          </span>
+          <span class="text-[10px] sm:text-xs tracking-wider uppercase text-zinc-500 font-bold block mt-1">
+            Peças • Telas • Acessórios • São Luís
+          </span>
+        </div>
+      </a>
+
+      <!-- Ações do Topo: WhatsApp + Botão Menu Hambúrguer -->
+      <div class="flex items-center gap-2.5 sm:gap-3">
+        
+        <!-- Botão WhatsApp no Topo -->
+        <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20G5%20Distribuidora%20e%20gostaria%20de%20atendimento." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-1.5 sm:gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-xs uppercase px-3.5 sm:px-5 py-2.5 sm:py-3 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md shrink-0">
+          <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+          <span class="hidden sm:inline">Falar no WhatsApp</span>
+          <span class="sm:hidden font-extrabold text-[11px]">WhatsApp</span>
+        </a>
+
+        <!-- Botão Menu Hambúrguer -->
+        <button id="hamburger-btn" 
+                type="button" 
+                aria-label="Abrir Menu" 
+                class="flex items-center gap-2 px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl border border-zinc-200 bg-zinc-50 hover:bg-zinc-100 text-zinc-900 hover:text-g5-orange hover:border-g5-orange transition-all duration-200 shadow-sm cursor-pointer">
+          <i data-lucide="menu" class="w-5 h-5 text-zinc-900"></i>
+          <span class="font-title font-bold text-xs uppercase tracking-wider">Menu</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= MENU HAMBÚRGUER DRAWER (OFF-CANVAS) ================= -->
+  <div id="menu-drawer-backdrop" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+
+  <aside id="menu-drawer" class="fixed top-0 right-0 bottom-0 w-[320px] sm:w-[380px] max-w-[85vw] bg-white z-50 shadow-2xl translate-x-full transition-transform duration-300 ease-out flex flex-col justify-between overflow-y-auto">
+    <!-- Topo do Drawer -->
+    <div>
+      <div class="p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50/80">
+        <div class="flex items-center gap-3">
+          <img src="./assets/g5_3d_logo.png" alt="G5 Distribuidora" class="h-10 w-auto object-contain">
+          <div>
+            <span class="font-title font-black text-lg text-zinc-950 block leading-tight">G5 <span class="text-g5-orange">MENU</span></span>
+            <span class="text-[10px] text-zinc-500 font-semibold uppercase tracking-wider">Navegação Rápida</span>
+          </div>
+        </div>
+
+        <button id="menu-drawer-close" type="button" aria-label="Fechar Menu" class="w-10 h-10 rounded-xl border border-zinc-200 bg-white hover:bg-zinc-100 text-zinc-700 hover:text-zinc-950 flex items-center justify-center transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Links do Menu Hambúrguer (Conforme Imagem Enviada) -->
+      <nav class="p-6 space-y-3 font-title font-extrabold text-sm uppercase tracking-wide">
+        <!-- 1. NOSSAS LOJAS -->
+        <a href="#lojas" class="drawer-link flex items-center gap-3.5 px-4 py-3.5 rounded-xl bg-orange-50 text-g5-orange border border-orange-200/60 hover:bg-orange-100/80 transition-all duration-200">
+          <i data-lucide="store" class="w-5 h-5 text-g5-orange shrink-0"></i>
+          <span>NOSSAS LOJAS</span>
+        </a>
+
+        <!-- 2. CATEGORIAS -->
+        <a href="#produtos" class="drawer-link flex items-center gap-3.5 px-4 py-3.5 rounded-xl text-zinc-700 hover:text-zinc-950 hover:bg-zinc-100 border border-transparent hover:border-zinc-200 transition-all duration-200">
+          <i data-lucide="grid" class="w-5 h-5 text-zinc-500 shrink-0"></i>
+          <span>CATEGORIAS</span>
+        </a>
+
+        <!-- 3. VANTAGENS -->
+        <a href="#vantagens" class="drawer-link flex items-center gap-3.5 px-4 py-3.5 rounded-xl text-zinc-700 hover:text-zinc-950 hover:bg-zinc-100 border border-transparent hover:border-zinc-200 transition-all duration-200">
+          <i data-lucide="shield-check" class="w-5 h-5 text-zinc-500 shrink-0"></i>
+          <span>VANTAGENS</span>
+        </a>
+
+        <!-- 4. DEPOIMENTOS -->
+        <a href="#depoimentos" class="drawer-link flex items-center gap-3.5 px-4 py-3.5 rounded-xl text-zinc-700 hover:text-zinc-950 hover:bg-zinc-100 border border-transparent hover:border-zinc-200 transition-all duration-200">
+          <i data-lucide="message-square" class="w-5 h-5 text-zinc-500 shrink-0"></i>
+          <span>DEPOIMENTOS</span>
+        </a>
+
+        <!-- 5. FALAR NO WHATSAPP (Botão Verde Destaque) -->
+        <div class="pt-4">
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20G5%20Distribuidora%20e%20gostaria%20de%20atendimento." 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="w-full flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-sm uppercase py-4 px-5 rounded-xl shadow-md transition-all duration-200">
+            <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>
+            <span>FALAR NO WHATSAPP</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Rodapé do Drawer com Informações das Lojas -->
+    <div class="p-6 border-t border-zinc-200 bg-zinc-50 space-y-2 text-xs text-zinc-600">
+      <div class="flex items-center gap-2 font-bold text-zinc-950">
+        <i data-lucide="map-pin" class="w-4 h-4 text-g5-orange"></i>
+        <span>4 Unidades em São Luís</span>
+      </div>
+      <p class="text-[11px] text-zinc-500 leading-relaxed">
+        São Cristóvão • Jardim América • Divinéia • Assistência Técnica
+      </p>
+      <div class="pt-2 flex items-center justify-between text-[11px] text-zinc-400">
+        <span>Seg a Sex: 08h às 18h</span>
+        <span>Sáb: 08h às 13h</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= 3. HERO SECTION (FUNDO BRANCO LIMPO & MODERNO) ================= -->
+  <section class="py-12 sm:py-20 border-b border-zinc-200 bg-white relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center space-y-6">
+      
+      <!-- Logo 3D em Destaque no Início (AUMENTADA) -->
+      <div class="flex justify-center items-center pb-2">
+        <div class="relative group">
+          <div class="absolute -inset-6 bg-orange-500/20 rounded-full blur-3xl group-hover:bg-orange-500/35 transition-all duration-500"></div>
+          <img src="./assets/g5_3d_logo.png" 
+               alt="G5 Distribuidora" 
+               class="relative w-44 sm:w-60 md:w-72 lg:w-80 h-auto mx-auto object-contain drop-shadow-[0_20px_45px_rgba(249,115,22,0.32)] hover:scale-105 transition-transform duration-300">
+        </div>
+      </div>
+
+      <!-- Headline Principal -->
+      <h1 class="font-title font-extrabold text-3xl sm:text-5xl lg:text-6xl text-zinc-950 tracking-tight leading-[1.1]">
+        PEÇAS DE ALTA QUALIDADE <br>
+        <span class="text-g5-orange">PARA SUA BANCADA NÃO PARAR</span>
+      </h1>
+
+      <!-- Sub-headline Direta -->
+      <p class="text-zinc-600 text-sm sm:text-base lg:text-lg max-w-3xl mx-auto leading-relaxed">
+        Distribuidora de <strong>telas, baterias, conectores e componentes</strong> no atacado e varejo. Retire hoje mesmo no balcão da unidade mais próxima de você, com peças testadas e garantia sem burocracia.
+      </p>
+
+      <!-- Botões de Ação Rápida -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+        <a href="#lojas" 
+           class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-g5-orange hover:bg-g5-orangeHover text-white font-extrabold text-xs sm:text-sm uppercase px-8 py-4 rounded-xl transition-colors shadow-md">
+          <i data-lucide="store" class="w-5 h-5"></i>
+          <span>Ver Nossas Lojas Físicas</span>
+        </a>
+        
+        <a href="#produtos" 
+           class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-zinc-100 hover:bg-zinc-200 text-zinc-900 font-bold text-xs sm:text-sm uppercase px-8 py-4 rounded-xl border border-zinc-300 transition-colors">
+          <i data-lucide="grid" class="w-5 h-5 text-g5-orange"></i>
+          <span>Explorar Categorias</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 4. FAIXA DE BENEFÍCIOS (TRUST BAR) ================= -->
+  <section id="vantagens" class="py-10 bg-zinc-50 border-b border-zinc-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <!-- Benefício 1 -->
+        <div class="p-4 rounded-xl bg-white border border-zinc-200 flex items-center gap-3.5 shadow-sm">
+          <div class="w-11 h-11 rounded-lg bg-orange-50 text-g5-orange flex items-center justify-center shrink-0 border border-orange-100">
+            <i data-lucide="zap" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="font-title font-bold text-xs sm:text-sm text-zinc-900">Retirada na Hora</div>
+            <div class="text-[11px] text-zinc-500 mt-0.5">Sem esperar dias por frete</div>
+          </div>
+        </div>
+
+        <!-- Benefício 2 -->
+        <div class="p-4 rounded-xl bg-white border border-zinc-200 flex items-center gap-3.5 shadow-sm">
+          <div class="w-11 h-11 rounded-lg bg-orange-50 text-g5-orange flex items-center justify-center shrink-0 border border-orange-100">
+            <i data-lucide="tag" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="font-title font-bold text-xs sm:text-sm text-zinc-900">Tabela de Atacado</div>
+            <div class="text-[11px] text-zinc-500 mt-0.5">Margem real para assistências</div>
+          </div>
+        </div>
+
+        <!-- Benefício 3 -->
+        <div class="p-4 rounded-xl bg-white border border-zinc-200 flex items-center gap-3.5 shadow-sm">
+          <div class="w-11 h-11 rounded-lg bg-orange-50 text-g5-orange flex items-center justify-center shrink-0 border border-orange-100">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="font-title font-bold text-xs sm:text-sm text-zinc-900">Garantia no Balcão</div>
+            <div class="text-[11px] text-zinc-500 mt-0.5">Troca rápida e sem enrolação</div>
+          </div>
+        </div>
+
+        <!-- Benefício 4 -->
+        <div class="p-4 rounded-xl bg-white border border-zinc-200 flex items-center gap-3.5 shadow-sm">
+          <div class="w-11 h-11 rounded-lg bg-orange-50 text-g5-orange flex items-center justify-center shrink-0 border border-orange-100">
+            <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="font-title font-bold text-xs sm:text-sm text-zinc-900">Peças Testadas</div>
+            <div class="text-[11px] text-zinc-500 mt-0.5">Qualidade e procedência</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 5. ESCOLHA POR CATEGORIA (CARROSSEL CIRCULAR) ================= -->
+  <section id="produtos" class="py-16 sm:py-20 border-b border-zinc-200 bg-white relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <!-- Cabeçalho -->
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold text-g5-orange uppercase tracking-widest block mb-1">Catálogo Geral</span>
+        <h2 class="font-title font-extrabold text-2xl sm:text-4xl text-zinc-950 tracking-tight">
+          Escolha por Categoria
+        </h2>
+        <p class="text-xs sm:text-sm text-zinc-500 mt-1">
+          Peças e componentes com pronta entrega nas lojas da G5 em São Luís
+        </p>
+      </div>
+
+      <!-- Carrossel de Categorias Circulares -->
+      <div class="relative flex items-center w-full max-w-full overflow-hidden">
+        
+        <!-- Botão Esquerda -->
+        <button id="cat-prev" type="button" aria-label="Voltar categorias" class="hidden sm:flex absolute -left-3 z-20 w-10 h-10 rounded-full bg-white hover:bg-zinc-100 text-zinc-800 hover:text-g5-orange border border-zinc-200 items-center justify-center transition-colors shadow-md">
+          <i data-lucide="chevron-left" class="w-6 h-6"></i>
+        </button>
+
+        <!-- Trilha de Itens -->
+        <div id="categories-slider" class="flex items-start gap-4 sm:gap-6 overflow-x-auto scroll-smooth py-4 px-2 w-full no-scrollbar">
+          
+          <!-- Item 1: Conectores -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20CONECTORES%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/conectores.png" alt="Conectores" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Conectores</span>
+          </a>
+
+          <!-- Item 2: Gavetas de Chip -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20GAVETAS%20DE%20CHIP%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/gavetas.png" alt="Gavetas de Chip" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors leading-tight">Gavetas de Chip</span>
+          </a>
+
+          <!-- Item 3: Botões -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20BOTOES%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/botoes.png" alt="Botões" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Botões</span>
+          </a>
+
+          <!-- Item 4: Microfones -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20MICROFONES%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/microfones.png" alt="Microfones" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Microfones</span>
+          </a>
+
+          <!-- Item 5: Câmeras -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20CAMERAS%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/cameras.png" alt="Câmeras" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Câmeras</span>
+          </a>
+
+          <!-- Item 6: Acessórios -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20ACESSORIOS%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/acessorios.png" alt="Acessórios" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Acessórios</span>
+          </a>
+
+          <!-- Item 7: Alto Falantes -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20ALTO%20FALANTES%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/alto_falantes.png" alt="Alto Falantes" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors leading-tight">Alto Falantes</span>
+          </a>
+
+          <!-- Item 8: Displays -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20DISPLAYS%20E%20TELAS%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/displays.png" alt="Displays" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Displays</span>
+          </a>
+
+          <!-- Item 9: Baterias -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20BATERIAS%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/baterias.png" alt="Baterias" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Baterias</span>
+          </a>
+
+          <!-- Item 10: Carcaças -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20CARCACAS%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/carcacas.png" alt="Carcaças" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Carcaças</span>
+          </a>
+
+          <!-- Item 11: Vidros & Touch -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20VIDROS%20E%20TOUCH%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/vidros.png" alt="Vidros e Touch" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors leading-tight">Vidros / Touch</span>
+          </a>
+
+          <!-- Item 12: Ferramentas -->
+          <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20FERRAMENTAS%20na%20G5%20Distribuidora." 
+             target="_blank" rel="noopener noreferrer" 
+             class="flex flex-col items-center group shrink-0 w-24 sm:w-28 text-center transition-transform hover:-translate-y-1">
+            <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white flex items-center justify-center p-3 shadow-md border-2 border-zinc-100 group-hover:border-g5-orange group-hover:shadow-lg transition-all duration-200">
+              <img src="./assets/categorias/ferramentas.png" alt="Ferramentas" class="w-full h-full object-contain">
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-zinc-800 mt-3 group-hover:text-g5-orange transition-colors">Ferramentas</span>
+          </a>
+
+        </div>
+
+        <!-- Botão Direita -->
+        <button id="cat-next" type="button" aria-label="Avançar categorias" class="hidden sm:flex absolute -right-3 z-20 w-10 h-10 rounded-full bg-white hover:bg-zinc-100 text-zinc-800 hover:text-g5-orange border border-zinc-200 items-center justify-center transition-colors shadow-md">
+          <i data-lucide="chevron-right" class="w-6 h-6"></i>
+        </button>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 6. NOSSAS LOJAS FÍSICAS ================= -->
+  <section id="lojas" class="py-20 border-b border-zinc-200 bg-zinc-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <!-- Cabeçalho -->
+      <div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+        <span class="text-xs font-bold text-g5-orange uppercase tracking-widest block">Retirada Imediata</span>
+        <h2 class="font-title font-extrabold text-2xl sm:text-4xl text-zinc-950 tracking-tight">
+          Nossas Lojas Físicas em São Luís
+        </h2>
+        <p class="text-zinc-600 text-xs sm:text-sm">
+          Escolha a unidade mais perto de você, fale com o atendente da loja pelo WhatsApp ou abra o mapa com 1 clique.
+        </p>
+      </div>
+
+      <!-- Grid dos Cards das Lojas -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- LOJA 1: SÃO CRISTÓVÃO -->
+        <article class="bg-white border border-zinc-200 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-g5-orange transition-all duration-200 shadow-sm hover:shadow-md">
+          <div>
+            <div class="relative h-56 bg-zinc-100 flex items-center justify-center border-b border-zinc-200 overflow-hidden">
+              <img src="./assets/loja_sao_cristovao.jpg" alt="Fachada Loja G5 Distribuidora São Cristóvão" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+            
+            <div class="p-6 space-y-4">
+              <div>
+                <h3 class="font-title font-extrabold text-xl text-zinc-950">G5 DISTRIBUIDORA - São Cristóvão</h3>
+                <span class="text-xs text-g5-orange font-semibold block mt-0.5">Av. Guajajaras, 1000 • Lojas 10 e 11</span>
+              </div>
+
+              <div class="space-y-2.5 text-xs text-zinc-700 border-t border-zinc-100 pt-4">
+                <p class="flex items-start gap-2.5">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-g5-orange shrink-0 mt-0.5"></i>
+                  <span>Av. Guajajaras, 1000 - Lj 10 E 11 - São Cristóvão</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="clock" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span>Seg a Sex: 08h às 18h | Sáb: 08h às 13h</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="phone" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span class="font-bold text-zinc-950">(98) 98848-4241</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 space-y-2.5">
+            <a href="https://wa.me/5598988484241?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20na%20unidade%20S%C3%83O%20CRIST%C3%93V%C3%83O." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-xs uppercase py-3 rounded-xl transition-colors shadow-sm">
+              <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+              <span>Falar no WhatsApp da Loja</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/yGXrP4ckzfvnUxVi9" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-800 border border-zinc-200 font-semibold text-xs uppercase py-2.5 rounded-xl transition-colors">
+              <i data-lucide="navigation" class="w-3.5 h-3.5 text-g5-orange"></i>
+              <span>Abrir no Google Maps</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOJA 2: JARDIM AMÉRICA -->
+        <article class="bg-white border border-zinc-200 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-g5-orange transition-all duration-200 shadow-sm hover:shadow-md">
+          <div>
+            <div class="relative h-56 bg-zinc-100 flex items-center justify-center border-b border-zinc-200 overflow-hidden">
+              <img src="./assets/loja_jardim_america.jpg" alt="Fachada Loja G5 Distribuidora Jardim América" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+            
+            <div class="p-6 space-y-4">
+              <div>
+                <h3 class="font-title font-extrabold text-xl text-zinc-950">G5 DISTRIBUIDORA - Jardim América</h3>
+                <span class="text-xs text-g5-orange font-semibold block mt-0.5">Av. Principal Jardim América, 105</span>
+              </div>
+
+              <div class="space-y-2.5 text-xs text-zinc-700 border-t border-zinc-100 pt-4">
+                <p class="flex items-start gap-2.5">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-g5-orange shrink-0 mt-0.5"></i>
+                  <span>Av. Principal Jardim América, 105 - Jardim América, São Luís - MA</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="clock" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span>Seg a Sex: 08h às 18h | Sáb: 08h às 13h</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="phone" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span class="font-bold text-zinc-950">(98) 99108-8552</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 space-y-2.5">
+            <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20na%20unidade%20JARDIM%20AM%C3%89RICA." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-xs uppercase py-3 rounded-xl transition-colors shadow-sm">
+              <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+              <span>Falar no WhatsApp da Loja</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/G2h2gA4YbVcRR2az6" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-800 border border-zinc-200 font-semibold text-xs uppercase py-2.5 rounded-xl transition-colors">
+              <i data-lucide="navigation" class="w-3.5 h-3.5 text-g5-orange"></i>
+              <span>Abrir no Google Maps</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOJA 3: DIVINÉIA -->
+        <article class="bg-white border border-zinc-200 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-g5-orange transition-all duration-200 shadow-sm hover:shadow-md">
+          <div>
+            <div class="relative h-56 bg-zinc-100 flex items-center justify-center border-b border-zinc-200 overflow-hidden">
+              <img src="./assets/loja_divineia.jpg" alt="Fachada Loja G5 Distribuidora Divinéia" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+            
+            <div class="p-6 space-y-4">
+              <div>
+                <h3 class="font-title font-extrabold text-xl text-zinc-950">G5 DISTRIBUIDORA - Divinéia</h3>
+                <span class="text-xs text-g5-orange font-semibold block mt-0.5">Feira do Mangueirão • Av. Brasil</span>
+              </div>
+
+              <div class="space-y-2.5 text-xs text-zinc-700 border-t border-zinc-100 pt-4">
+                <p class="flex items-start gap-2.5">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-g5-orange shrink-0 mt-0.5"></i>
+                  <span>Feira do Mangueirão - Av. Brasil - Divinéia, São Luís - MA</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="clock" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span>Seg a Sex: 08h às 18h | Sáb: 08h às 13h</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="phone" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span class="font-bold text-zinc-950">(98) 98450-3710</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 space-y-2.5">
+            <a href="https://wa.me/5598984503710?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20na%20unidade%20DIVIN%C3%89IA." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-xs uppercase py-3 rounded-xl transition-colors shadow-sm">
+              <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+              <span>Falar no WhatsApp da Loja</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/yNm142JiSb5iZfobA" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-800 border border-zinc-200 font-semibold text-xs uppercase py-2.5 rounded-xl transition-colors">
+              <i data-lucide="navigation" class="w-3.5 h-3.5 text-g5-orange"></i>
+              <span>Abrir no Google Maps</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- LOJA 4: ASSISTÊNCIA TÉCNICA - SÃO CRISTÓVÃO -->
+        <article class="bg-white border border-zinc-200 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-g5-orange transition-all duration-200 shadow-sm hover:shadow-md">
+          <div>
+            <div class="relative h-56 bg-zinc-100 flex items-center justify-center border-b border-zinc-200 overflow-hidden">
+              <img src="./assets/g5_assistencia_sao_cristovao.jpg" alt="Fachada G5 Assistência Técnica São Cristóvão" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+            
+            <div class="p-6 space-y-4">
+              <div>
+                <h3 class="font-title font-extrabold text-xl text-zinc-950">G5 Assistência Técnica - São Cristóvão</h3>
+                <span class="text-xs text-g5-orange font-semibold block mt-0.5">Av. Guajajaras, 1000 • Loja 14</span>
+              </div>
+
+              <div class="space-y-2.5 text-xs text-zinc-700 border-t border-zinc-100 pt-4">
+                <p class="flex items-start gap-2.5">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-g5-orange shrink-0 mt-0.5"></i>
+                  <span>Av. Guajajaras, 1000 - Lj 14 - Tirirical, São Luís - MA</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="clock" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span>Seg a Sex: 08h às 18h | Sáb: 08h às 13h</span>
+                </p>
+                <p class="flex items-center gap-2.5">
+                  <i data-lucide="phone" class="w-4 h-4 text-g5-orange shrink-0"></i>
+                  <span class="font-bold text-zinc-950">(98) 98508-8041</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 space-y-2.5">
+            <a href="https://wa.me/5598985088041?text=Ol%C3%A1!%20Gostaria%20de%20atendimento%20na%20G5%20Assist%C3%AAncia%20T%C3%A9cnica%20-%20S%C3%A3o%20Crist%C3%B3v%C3%A3o." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-xs uppercase py-3 rounded-xl transition-colors shadow-sm">
+              <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+              <span>Falar no WhatsApp da Loja</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/wuh93r6cPfnvGzu68" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-800 border border-zinc-200 font-semibold text-xs uppercase py-2.5 rounded-xl transition-colors">
+              <i data-lucide="navigation" class="w-3.5 h-3.5 text-g5-orange"></i>
+              <span>Abrir no Google Maps</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 7. PROVA SOCIAL (AVALIAÇÕES REAIS NO GOOGLE MAPS) ================= -->
+  <section id="depoimentos" class="py-20 border-b border-zinc-200 bg-white overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <!-- Cabeçalho com Selo Google -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div class="space-y-3 max-w-2xl">
+          <h2 class="font-title font-extrabold text-2xl sm:text-4xl text-zinc-950 tracking-tight">
+            Quem Compra na G5 Recomenda
+          </h2>
+          <div class="flex flex-wrap items-center gap-3 pt-1">
+            <div class="flex items-center gap-1.5 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-lg">
+              <span class="font-title font-extrabold text-base text-zinc-950 leading-none">4.8</span>
+              <div class="flex items-center gap-0.5 text-amber-500">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+              </div>
+            </div>
+            <span class="text-xs sm:text-sm text-zinc-600">Baseado em <strong>mais de 238 avaliações reais</strong> de clientes e técnicos em São Luís.</span>
+          </div>
+        </div>
+
+        <!-- Controles do Carrossel Desktop -->
+        <div class="hidden sm:flex items-center gap-2">
+          <button id="rev-prev" 
+                  class="w-10 h-10 rounded-xl border border-zinc-300 hover:border-zinc-900 bg-white hover:bg-zinc-100 flex items-center justify-center transition-colors text-zinc-700 hover:text-zinc-950" 
+                  aria-label="Avaliações anteriores">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i>
+          </button>
+          <button id="rev-next" 
+                  class="w-10 h-10 rounded-xl border border-zinc-300 hover:border-zinc-900 bg-white hover:bg-zinc-100 flex items-center justify-center transition-colors text-zinc-700 hover:text-zinc-950" 
+                  aria-label="Próximas avaliações">
+            <i data-lucide="chevron-right" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Slider de 10 Avaliações Reais -->
+      <div id="reviews-slider" class="flex gap-5 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0">
+        
+        <!-- 1. Bruno Carvalho -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Atendimento perfeito e sempre muito atencioso. Mais de 6 anos como cliente e sempre sendo muito bem recebido e levando as melhores peças e acessórios da ilha!"
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-orange-100 text-g5-orange font-bold text-xs flex items-center justify-center shrink-0">
+              BC
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Bruno Carvalho</div>
+              <div class="text-[11px] text-zinc-500">Cliente há mais de 6 anos • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Mara Souza -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Atendimento excelente, produtos de qualidade. Só compro nessa loja. Recomendo muitooooooooo!"
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-blue-100 text-blue-600 font-bold text-xs flex items-center justify-center shrink-0">
+              MS
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Mara Souza</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificada • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Fabiano Narciso da Silva -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Loja Top demais! Muita variedade de produtos e o atendimento é maravilhoso! Destaque para a vendedora Débora. Podem procurá-la. Garantia de bom atendimento..."
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-700 font-bold text-xs flex items-center justify-center shrink-0">
+              FN
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Fabiano Narciso da Silva</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificado • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Natália Pinheiro -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Ótimo atendimento e muita variedade de produtos de qualidade! A melhor distribuidora de São Luís."
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-purple-100 text-purple-700 font-bold text-xs flex items-center justify-center shrink-0">
+              NP
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Natália Pinheiro</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificada • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Railana Martins -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Sempre compro meus acessórios nessa loja, além de bom preço o atendimento é de qualidade."
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-rose-100 text-rose-700 font-bold text-xs flex items-center justify-center shrink-0">
+              RM
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Railana Martins</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificada • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Bruna Medeiros -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Experiência maravilhosa! Atendimento impecável e encontrei tudo que eu precisava com rapidez!"
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-cyan-100 text-cyan-700 font-bold text-xs flex items-center justify-center shrink-0">
+              BM
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Bruna Medeiros</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificada • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Thais Rodrigues Silva -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Ótimo atendimento e os atendentes são ótimos! Equipe super atenciosa para tirar dúvidas e separar os pedidos."
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-amber-100 text-amber-800 font-bold text-xs flex items-center justify-center shrink-0">
+              TR
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Thais Rodrigues Silva</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificada • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Marcos Vinícius S. -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Loja top tudo que você precisa de eletrônicos, telas e peças de reposição. Preço justo no atacado e variedade garantida."
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-indigo-100 text-indigo-700 font-bold text-xs flex items-center justify-center shrink-0">
+              MV
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Marcos Vinícius S.</div>
+              <div class="text-[11px] text-zinc-500">Técnico em Manutenção • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Leandro Costa -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Produtos de qualidade com ótimo custo-benefício. Salva a rotina de quem precisa de telas e baterias com garantia no balcão sem enrolação."
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-teal-100 text-teal-700 font-bold text-xs flex items-center justify-center shrink-0">
+              LC
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Leandro Costa</div>
+              <div class="text-[11px] text-zinc-500">Assistência Técnica • Google</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Eduardo Ramos -->
+        <div class="w-[85%] sm:w-[360px] shrink-0 snap-start p-6 rounded-2xl bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-sm hover:border-zinc-300 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-1 text-amber-500">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+            <p class="text-xs sm:text-sm text-zinc-700 leading-relaxed italic">
+              "Melhor distribuidora de peças e acessórios para celular de São Luís. Variedade imensa e atendimento nota 10 sempre!"
+            </p>
+          </div>
+          <div class="border-t border-zinc-200 pt-4 mt-4 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-orange-100 text-orange-700 font-bold text-xs flex items-center justify-center shrink-0">
+              ER
+            </div>
+            <div>
+              <div class="font-title font-bold text-xs text-zinc-950">Eduardo Ramos</div>
+              <div class="text-[11px] text-zinc-500">Cliente Verificado • Google</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA de Verificação Oficial no Google Maps -->
+      <div class="mt-10 text-center">
+        <a href="https://maps.app.goo.gl/fwHH8CDtPSDJv51E7" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-100 hover:bg-zinc-200 text-zinc-900 border border-zinc-300 font-bold text-xs uppercase tracking-wider transition-colors shadow-sm">
+          <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+          </svg>
+          <span>Ver todas as 238 avaliações no Google Maps</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5 text-zinc-500"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 8. FEED INSTAGRAM G5 (@g5celulardivineia) ================= -->
+  <section id="instagram" class="py-16 border-b border-zinc-200 bg-zinc-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="bg-white border border-zinc-200 rounded-2xl p-6 sm:p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm hover:shadow-md transition-shadow">
+        
+        <div class="flex items-center gap-4 text-center sm:text-left flex-col sm:flex-row">
+          <!-- Logo Oficial Gradiente do Instagram -->
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-[#FD1D1D] via-[#E1306C] to-[#833AB4] flex items-center justify-center text-white shrink-0 shadow-md">
+            <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </div>
+
+          <div>
+            <div class="font-title font-bold text-lg sm:text-xl text-zinc-950">Acompanhe no Instagram</div>
+            <div class="text-xs sm:text-sm text-zinc-600 mt-0.5">
+              Siga <strong class="text-zinc-900">@g5celulardivineia</strong> e veja a chegada diária de lotes de telas, baterias e promoções.
+            </div>
+          </div>
+        </div>
+
+        <a href="https://www.instagram.com/g5celulardivineia/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2.5 bg-zinc-950 hover:bg-zinc-800 text-white font-bold text-xs uppercase px-6 py-3.5 rounded-xl transition-all shadow-sm hover:scale-[1.02] active:scale-[0.98] shrink-0 border border-zinc-800">
+          <svg class="w-4 h-4 fill-current text-pink-400" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span>Seguir @g5celulardivineia</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 9. CTA FINAL DE ALTA CONVERSÃO ================= -->
+  <section class="py-20 bg-zinc-950 text-center text-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 space-y-6">
+      <h2 class="font-title font-extrabold text-3xl sm:text-5xl text-white leading-tight">
+        QUAL PEÇA VOCÊ PRECISA HOJE?
+      </h2>
+      <p class="text-zinc-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+        Chame agora nossos atendentes no WhatsApp da unidade mais próxima e garanta suas peças separadas no balcão.
+      </p>
+      <div class="pt-2">
+        <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20G5%20Distribuidora%20e%20gostaria%20de%20consultar%20pe%C3%A7as%20no%20estoque." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-sm uppercase px-8 py-4 rounded-xl transition-colors shadow-xl">
+          <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+          <span>Falar no WhatsApp Agora</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 10. FOOTER CLARO & CORPORATIVO ================= -->
+  <footer class="bg-white py-12 border-t border-zinc-200 text-xs text-zinc-500">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-8">
+      
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left border-b border-zinc-100 pb-8">
+        <div class="flex items-center gap-3">
+          <img src="./assets/g5_3d_logo.png" alt="Logo G5" class="h-10 w-auto object-contain drop-shadow-sm">
+          <span class="font-title font-bold text-lg text-zinc-900">G5 DISTRIBUIDORA</span>
+        </div>
+
+        <div class="flex items-center gap-6 font-semibold">
+          <a href="#lojas" class="hover:text-zinc-900 transition-colors">Nossas Lojas</a>
+          <a href="#produtos" class="hover:text-zinc-900 transition-colors">Categorias</a>
+          <a href="https://www.instagram.com/g5celulardivineia/" target="_blank" rel="noopener noreferrer" class="hover:text-g5-orange transition-colors flex items-center gap-1.5">
+            <svg class="w-4 h-4 fill-current text-g5-orange" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <span>@g5celulardivineia</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left text-[11px]">
+        <div>
+          &copy; 2026 G5 Distribuidora de Peças para Celular • São Luís - MA
+        </div>
+        <div>
+          Desenvolvido com excelência por <a href="https://nativo360.com.br" class="text-g5-orange hover:underline font-bold">Nativo 360° Digital Ads</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= BOTÃO FLUTUANTE WHATSAPP (100% REDONDO EM DESKTOP & MOBILE) ================= -->
+  <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20G5%20Distribuidora%20e%20gostaria%20de%20atendimento." 
+     target="_blank" 
+     rel="noopener noreferrer"
+     id="whatsapp-floating-btn"
+     style="position: fixed; z-index: 9999;"
+     class="bottom-20 right-4 sm:bottom-6 sm:right-6 w-14 h-14 sm:w-16 sm:h-16 group flex items-center justify-center bg-[#25D366] hover:bg-[#20BD5A] text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95 border-2 border-white/20"
+     title="Falar no WhatsApp da G5"
+     aria-label="Falar no WhatsApp da G5">
+    
+    <!-- Ponto Pulsante de Status Online -->
+    <span class="absolute -top-1 -right-1 flex h-4 w-4">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-4 w-4 bg-emerald-400 border-2 border-white"></span>
+    </span>
+
+    <!-- Logo Oficial WhatsApp SVG -->
+    <svg class="w-7 h-7 sm:w-8 sm:h-8 fill-current shrink-0" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+    </svg>
+  </a>
+
+  <!-- ================= BARRA FIXA MOBILE DE CONVERSÃO ================= -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-zinc-200 p-2.5 flex items-center gap-2 shadow-lg">
+    <a href="#lojas" class="flex-1 py-3 bg-zinc-100 hover:bg-zinc-200 text-zinc-900 font-bold text-xs rounded-lg flex items-center justify-center gap-1.5 border border-zinc-300 uppercase transition-colors">
+      <i data-lucide="map-pin" class="w-4 h-4 text-g5-orange"></i>
+      <span>Ver Lojas</span>
+    </a>
+    <a href="https://wa.me/5598991088552?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20G5%20Distribuidora%20e%20gostaria%20de%20um%20or%C3%A7amento." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="flex-[2] py-3 bg-[#25D366] hover:bg-[#20BD5A] text-white font-extrabold text-xs rounded-lg flex items-center justify-center gap-2 uppercase transition-colors shadow-sm">
+      <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+      </svg>
+      <span>WhatsApp da Loja</span>
+    </a>
+  </div>
+
+  <script>
+    // Inicialização dos ícones Lucide
+    lucide.createIcons();
+
+    // Slider de Categorias
+    const catSlider = document.getElementById('categories-slider');
+    const catPrev = document.getElementById('cat-prev');
+    const catNext = document.getElementById('cat-next');
+
+    if (catSlider && catPrev && catNext) {
+      catPrev.addEventListener('click', () => {
+        catSlider.scrollBy({ left: -260, behavior: 'smooth' });
+      });
+      catNext.addEventListener('click', () => {
+        catSlider.scrollBy({ left: 260, behavior: 'smooth' });
+      });
+    }
+
+    // Slider de Avaliações Google
+    const revSlider = document.getElementById('reviews-slider');
+    const revPrev = document.getElementById('rev-prev');
+    const revNext = document.getElementById('rev-next');
+
+    if (revSlider && revPrev && revNext) {
+      revPrev.addEventListener('click', () => {
+        revSlider.scrollBy({ left: -380, behavior: 'smooth' });
+      });
+      revNext.addEventListener('click', () => {
+        revSlider.scrollBy({ left: 380, behavior: 'smooth' });
+      });
+    }
+
+    // Controle do Menu Hambúrguer Drawer
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const menuDrawer = document.getElementById('menu-drawer');
+    const menuBackdrop = document.getElementById('menu-drawer-backdrop');
+    const menuCloseBtn = document.getElementById('menu-drawer-close');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+
+    function openMenu() {
+      if (!menuDrawer || !menuBackdrop) return;
+      menuBackdrop.classList.remove('opacity-0', 'pointer-events-none');
+      menuBackdrop.classList.add('opacity-100');
+      menuDrawer.classList.remove('translate-x-full');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      if (!menuDrawer || !menuBackdrop) return;
+      menuBackdrop.classList.remove('opacity-100');
+      menuBackdrop.classList.add('opacity-0', 'pointer-events-none');
+      menuDrawer.classList.add('translate-x-full');
+      document.body.style.overflow = '';
+    }
+
+    if (hamburgerBtn) hamburgerBtn.addEventListener('click', openMenu);
+    if (menuCloseBtn) menuCloseBtn.addEventListener('click', closeMenu);
+    if (menuBackdrop) menuBackdrop.addEventListener('click', closeMenu);
+
+    drawerLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        closeMenu();
+      });
+    });
+  </script>
+</body>
+</html>
